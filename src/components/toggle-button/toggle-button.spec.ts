@@ -1,5 +1,5 @@
-import { newSpecPage } from '@stencil/core/testing';
-import { ToggleButton } from './toggle-button';
+import {newSpecPage} from '@stencil/core/testing';
+import {ToggleButton} from './toggle-button';
 
 it('should render turned off toggle-button component', async () => {
   const page = await newSpecPage({
